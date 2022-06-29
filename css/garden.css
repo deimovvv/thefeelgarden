@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero-image{
+
+        background-image: linear-gradient(180deg, #0020002c 0%, #0000008c 100%),
+         url(../img/planta2.jpg);
+        min-height: 100vh;
+        width: 100vw;
+        /* background-size: cover; */
+        color: white
+}
+
+.hero-image div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: inherit;
+}
+
+.hero-image h1 {
+    font-size: 170px;
+    /* font-family: sans-serif;
+     */
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 100;
+}
+
+header{
+    display: flex;
+     flex-direction: column;     
+    align-items: center;
+    text-align: center;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+    
+}
+.nav-links li {
+    list-style-type: none;
+    padding: 10px 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+

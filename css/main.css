@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 500px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 500px;
+    width: 100%;
+}
+
+.parrafo-about{
+    width: 50%;
+    padding-top: 20px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer h1 {
+    padding-bottom: 55px;
+    font-size: 3em;
+
+}
+
+

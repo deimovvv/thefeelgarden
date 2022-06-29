@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero-image{
+        background-image:  /* linear-gradient(180deg, #0020002c 0%, #0000008c 100%) */
+         url(../img/planta1.jpg);
+        min-height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        color: rgb(255, 255, 255)
+}
+
+.hero-image div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: inherit;
+}
+
+.hero-image h1 {
+    font-size: 170px;
+    /* font-family: sans-serif;
+     */
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 100;
+  
+   
+}
+
+
+header{
+    display: flex;
+     flex-direction: column;     
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+    
+}
+.nav-links li {
+    list-style-type: none;
+    padding: 10px 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+.nav-links a:hover{
+    border-bottom: black .5px solid;
+}
+
+.inicio-btn{
+
+    font-size: 20px;
+    color: cornsilk;
+    text-decoration: none;
+  padding: 0 .5em;
+    border-radius: 20px;
+    border: rgb(252, 252, 252) 1px solid;
+}
+
+.btn-contenedor{
+    width: 10%;
+    height: 50px;
+    margin: 0%;
+}
