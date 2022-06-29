@@ -21,6 +21,7 @@ main{
 .parrafo-about{
     width: 50%;
     padding-top: 20px;
+    
 }
 
 
@@ -29,9 +30,13 @@ main{
     justify-content: center;
 }
 
+
+
 .footer h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 55px;
     font-size: 3em;
+    font-weight: 100;
 
 }
 
